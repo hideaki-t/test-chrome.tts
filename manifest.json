@@ -1,0 +1,14 @@
+{
+ "name": "TTS test",
+ "version": "1.0",
+ "description": "a test extension for chrome.tts",
+ "browser_action": {
+  "default_icon": "icon.png"
+ },
+ "background": {
+  "scripts": ["main.js"],
+  "persistent": false
+ },
+ "permissions": ["tts"],
+ "manifest_version": 2
+}
